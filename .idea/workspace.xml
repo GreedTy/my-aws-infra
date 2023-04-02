@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e6eb20-3486-49b6-ba7c-c0ebd94ca3f0" name="변경" comment="">
+    <list default="true" id="73e6eb20-3486-49b6-ba7c-c0ebd94ca3f0" name="변경" comment="Terraform &#10;- Network&#10;  - VPC(private subnet, public subnet)&#10;  - CloudFront&#10;  - Route53&#10;- Infra&#10;  - EKS&#10;    - ELB (aws-loadbalancer-controller)&#10;  - ECR&#10;  - Bastion-host&#10;- DB &amp; Storage&#10;  - Aurora RDS &#10;  - S3">
       <change afterPath="$PROJECT_DIR$/network/vpc/.terraform/providers/registry.terraform.io/hashicorp/aws/4.3.0/darwin_amd64/terraform-provider-aws_v4.3.0_x5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/network/vpc/.terraform/providers/registry.terraform.io/hashicorp/tls/4.0.4/darwin_amd64/terraform-provider-tls_v4.0.4_x5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/network/vpc/.terraform/terraform.tfstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TF_FMT": "false",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/kimbosung/my-aws-infra/infra/s3",
     "nodejs_package_manager_path": "npm"
@@ -125,8 +127,16 @@
       <workItem from="1678889323329" duration="907000" />
       <workItem from="1680355722760" duration="3074000" />
       <workItem from="1680358946127" duration="3624000" />
-      <workItem from="1680412115200" duration="7007000" />
+      <workItem from="1680412115200" duration="7783000" />
     </task>
+    <task id="LOCAL-00001" summary="Terraform &#10;- Network&#10;  - VPC(private subnet, public subnet)&#10;  - CloudFront&#10;  - Route53&#10;- Infra&#10;  - EKS&#10;    - ELB (aws-loadbalancer-controller)&#10;  - ECR&#10;  - Bastion-host&#10;- DB &amp; Storage&#10;  - Aurora RDS &#10;  - S3">
+      <created>1680433684183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680433684183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Terraform &#10;- Network&#10;  - VPC(private subnet, public subnet)&#10;  - CloudFront&#10;  - Route53&#10;- Infra&#10;  - EKS&#10;    - ELB (aws-loadbalancer-controller)&#10;  - ECR&#10;  - Bastion-host&#10;- DB &amp; Storage&#10;  - Aurora RDS &#10;  - S3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terraform &#10;- Network&#10;  - VPC(private subnet, public subnet)&#10;  - CloudFront&#10;  - Route53&#10;- Infra&#10;  - EKS&#10;    - ELB (aws-loadbalancer-controller)&#10;  - ECR&#10;  - Bastion-host&#10;- DB &amp; Storage&#10;  - Aurora RDS &#10;  - S3" />
   </component>
 </project>

@@ -1,0 +1,3 @@
+NAMESPACE=datadog
+ENV=dev
+CLUSTER_NAME=micro-service

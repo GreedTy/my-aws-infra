@@ -1,0 +1,3 @@
+NAMESPACE=argocd
+INGRESS_CLASS_NAME=
+INGRESS_PATH=/argocd/microservice

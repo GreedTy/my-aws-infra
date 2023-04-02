@@ -1,0 +1,4 @@
+CLUSTER_NAME=micro-service
+AWS_ACCOUNT_ID=
+AWS_REGION=ap-northeast-2
+POLICY_NAME=AWSLoadBalancerControllerIAMPolicy

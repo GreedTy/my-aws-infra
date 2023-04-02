@@ -1,0 +1,24 @@
+# registry -- Registry to use for all Agent images (default gcr.io)
+## Currently we offer Datadog Agent images on:
+## GCR - use gcr.io/datadoghq (default)
+## DockerHub - use docker.io/datadog
+## AWS - use public.ecr.aws/datadog
+registry: public.ecr.aws/datadog
+
+# see https://github.com/DataDog/helm-charts/blob/main/charts/datadog/values.yaml for full configurations
+datadog:
+
+  apiKeyExistingSecret: datadog-secret
+  appKeyExistingSecret: datadog-secret
+
+  kubeStateMetricsCore:
+    # datadog.kubeStateMetricsCore.enabled -- Enable the kubernetes_state_core check in the Cluster Agent (Requires Cluster Agent 1.12.0+)
+    ## ref: https://docs.datadoghq.com/integrations/kubernetes_state_core
+    enabled: true
+
+  logs:
+    enabled: true
+    containerCollectAll: true
+
+  networkMonitoring:
+    enabled: true

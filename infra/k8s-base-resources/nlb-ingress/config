@@ -1,0 +1,3 @@
+NAMESPACE=nginx-ingress
+ENV=dev
+NLB_COMPONENTS="nginx-api"
